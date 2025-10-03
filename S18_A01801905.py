@@ -34,5 +34,20 @@ for producto in compraste:
   if respuesta=="Y":
     yaComprado[compraste.index(producto)] = True
 
+#EXERCISE 4
+numbers=[1,6,5,8]
+numbersMax=max(numbers)
+print(numbersMax)
+
+numbersMin=min(numbers)
+print(numbersMin)
+
+numbersSort=sorted(numbers)
+print(numbersSort)
+
+#EXERCISE 5
+list=[1,2,3,4,5]
+
+
 
   
