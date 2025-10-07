@@ -46,8 +46,38 @@ numbersSort=sorted(numbers)
 print(numbersSort)
 
 #EXERCISE 5
-list=[1,2,3,4,5]
+st=[1,3,5,7,2,4,6,8]
 
+evenNumbers=[]
+oddNumbers=[]
+
+
+for number in list:
+    if number % 2==0:
+        evenNumbers.append(number)
+
+print("even numbers", evenNumbers)
+        
+for number in list:
+    if number % 2!=0:
+       oddNumbers.append(number)
+       
+print("odd numbers", oddNumbers)
+
+
+#EXERCISE 6
+names = ["John", "Sam", "Ross", "Jennifer"]
+
+name = input("Enter a username: ")
+
+if name in names:
+    position = names.index(name)
+    print("Invalid name", position)
+else:
+    names.append(name)
+    print("Perfect!")
+    print(names)
+  
 
 
   
