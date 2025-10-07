@@ -76,7 +76,7 @@ if name in names:
 else:
     names.append(name)
     print("Perfect!")
-    print(names)
+  
   
 
 
